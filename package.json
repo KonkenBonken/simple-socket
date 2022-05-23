@@ -1,0 +1,23 @@
+{
+  "name": "simple-socket",
+  "version": "1.0.0",
+  "description": "light-weight simple websocket, using express.js",
+    "websocket",
+    "express",
+    "socket"
+  ],
+  "author": "Konrad Pettersson",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KonkenBonken/simple-socket.git"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^17.0.31",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nanoid": "^3.3.4"
+  }
+}

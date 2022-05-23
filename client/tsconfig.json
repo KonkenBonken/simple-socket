@@ -1,0 +1,12 @@
+{
+  "include": ["*.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "../lib",
+    "declarationDir": "../types",
+    "strict": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "target": "es5"
+  }
+}
