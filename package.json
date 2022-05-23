@@ -10,6 +10,9 @@
     "ts-s": "tsc -p ./src",
     "ts": "npm run ts-s & npm run ts-c",
     "build": "npm run ts && npm run minify",
+    "test": "npm run ts && node sample/server.js",
+    "test-c": "npm run ts-c && node sample/server.js",
+    "test-s": "npm run ts-s && node sample/server.js"
   },
   "keywords": [
     "websocket",
